@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf-mvvm", "wpf-mvvm.csproj", "{1BC5FF01-14F3-4259-8653-BD04A4BF356B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf.mvvm.tests", "..\wpf.mvvm.tests\wpf.mvvm.tests.csproj", "{C380E3F7-6BF0-40B5-AF2D-390A9753932B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1BC5FF01-14F3-4259-8653-BD04A4BF356B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC5FF01-14F3-4259-8653-BD04A4BF356B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BC5FF01-14F3-4259-8653-BD04A4BF356B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C380E3F7-6BF0-40B5-AF2D-390A9753932B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C380E3F7-6BF0-40B5-AF2D-390A9753932B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C380E3F7-6BF0-40B5-AF2D-390A9753932B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C380E3F7-6BF0-40B5-AF2D-390A9753932B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
