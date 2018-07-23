@@ -54,6 +54,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ConverterControl.xaml.cs">
+      <DependentUpon>ConverterControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\PresenterViewModel.cs" />
+    <Page Include="ConverterControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -68,6 +76,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modules\TextConverter.cs" />
+    <Compile Include="MvvmFramework\DelegateCommand.cs" />
+    <Compile Include="MvvmFramework\ObservableObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -95,7 +106,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
